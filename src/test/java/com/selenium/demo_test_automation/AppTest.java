@@ -1,7 +1,8 @@
 package com.selenium.demo_test_automation;
 
 import static org.testng.AssertJUnit.assertTrue;
-import org.testng.annotations.Test;
+
+import org.junit.Test;
 
 /**
  * Unit test for simple App.
