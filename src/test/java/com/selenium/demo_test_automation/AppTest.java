@@ -1,6 +1,6 @@
 package com.selenium.demo_test_automation;
 
-import static org.testng.AssertJUnit.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
