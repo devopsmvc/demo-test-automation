@@ -15,21 +15,22 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class App 
 {
 	
-    public static void main( String[] args )
+    @SuppressWarnings("deprecation")
+	public static void main( String[] args )
     {
         //System.out.println( "Hello World!" );
     	
-    	System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/addressbook-pipepline-selenium-test/chromedriver");
+    	System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
     	//System.setProperty("webdriver.chrome.driver","C:\\Users\\mahes\\Desktop\\STAR\\chromedriver.exe");
     	ChromeOptions chromeOptions = new ChromeOptions();
-    	chromeOptions.addArguments("--headless");
-    	chromeOptions.addArguments("--no-sandbox");
-    	chromeOptions.addArguments("--disable-dev-shm-usage");
+    	//chromeOptions.addArguments("--headless");
+    	//chromeOptions.addArguments("--no-sandbox");
+    	//chromeOptions.addArguments("--disable-dev-shm-usage");
     	WebDriver driver = new ChromeDriver(chromeOptions);
     	
     	System.out.println("Welcome to the Selenium Scripts");
     	
-    	driver.get("http://3.6.94.51:8081/addressbook/");
+    	driver.get("http://3.110.130.88:8081/addressbook/");
     	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     	driver.findElement(By.className("v-button")).click();
     	

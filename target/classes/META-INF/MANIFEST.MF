@@ -1,5 +1,42 @@
 Manifest-Version: 1.0
 Built-By: mahes
 Build-Jdk: 17.0.4.1
+Class-Path: libs/selenium-java-4.2.1.jar libs/selenium-api-4.2.1.jar lib
+ s/selenium-chrome-driver-4.2.1.jar libs/auto-service-annotations-1.0.1.
+ jar libs/auto-service-1.0.1.jar libs/auto-common-1.2.jar libs/guava-31.
+ 1-jre.jar libs/failureaccess-1.0.1.jar libs/listenablefuture-9999.0-emp
+ ty-to-avoid-conflict-with-guava.jar libs/jsr305-3.0.2.jar libs/checker-
+ qual-3.12.0.jar libs/error_prone_annotations-2.11.0.jar libs/j2objc-ann
+ otations-1.3.jar libs/selenium-chromium-driver-4.2.1.jar libs/selenium-
+ json-4.2.1.jar libs/selenium-devtools-v100-4.2.1.jar libs/selenium-devt
+ ools-v101-4.2.1.jar libs/selenium-devtools-v102-4.2.1.jar libs/selenium
+ -devtools-v85-4.2.1.jar libs/selenium-edge-driver-4.2.1.jar libs/seleni
+ um-firefox-driver-4.2.1.jar libs/selenium-ie-driver-4.2.1.jar libs/sele
+ nium-opera-driver-4.2.1.jar libs/selenium-remote-driver-4.2.1.jar libs/
+ jcommander-1.82.jar libs/netty-buffer-4.1.77.Final.jar libs/netty-codec
+ -http-4.1.77.Final.jar libs/netty-codec-4.1.77.Final.jar libs/netty-han
+ dler-4.1.77.Final.jar libs/netty-common-4.1.77.Final.jar libs/netty-tra
+ nsport-classes-epoll-4.1.77.Final.jar libs/netty-transport-classes-kque
+ ue-4.1.77.Final.jar libs/netty-transport-native-epoll-4.1.77.Final.jar 
+ libs/netty-transport-native-kqueue-4.1.77.Final.jar libs/netty-transpor
+ t-native-unix-common-4.1.77.Final.jar libs/netty-transport-4.1.77.Final
+ .jar libs/netty-resolver-4.1.77.Final.jar libs/opentelemetry-api-1.14.0
+ .jar libs/opentelemetry-context-1.14.0.jar libs/opentelemetry-exporter-
+ logging-1.14.0.jar libs/opentelemetry-sdk-metrics-1.14.0.jar libs/opent
+ elemetry-sdk-logs-1.14.0-alpha.jar libs/opentelemetry-sdk-common-1.14.0
+ .jar libs/opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar libs
+ /opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar libs/opente
+ lemetry-sdk-trace-1.14.0.jar libs/opentelemetry-sdk-1.14.0.jar libs/ope
+ ntelemetry-semconv-1.14.0-alpha.jar libs/jtoml-2.0.0.jar libs/byte-budd
+ y-1.12.10.jar libs/commons-exec-1.3.jar libs/async-http-client-2.12.3.j
+ ar libs/async-http-client-netty-utils-2.12.3.jar libs/netty-codec-socks
+ -4.1.60.Final.jar libs/netty-handler-proxy-4.1.60.Final.jar libs/netty-
+ transport-native-epoll-4.1.60.Final-linux-x86_64.jar libs/netty-transpo
+ rt-native-kqueue-4.1.60.Final-osx-x86_64.jar libs/reactive-streams-1.0.
+ 3.jar libs/netty-reactive-streams-2.0.4.jar libs/jakarta.activation-1.2
+ .2.jar libs/selenium-http-4.2.1.jar libs/failsafe-3.2.4.jar libs/seleni
+ um-safari-driver-4.2.1.jar libs/selenium-support-4.2.1.jar libs/slf4j-a
+ pi-1.7.5.jar libs/slf4j-log4j12-1.7.5.jar libs/log4j-1.2.17.jar
+Main-Class: com.selenium.App
 Created-By: Maven Integration for Eclipse
 
