@@ -36,7 +36,16 @@ Class-Path: libs/selenium-java-4.2.1.jar libs/selenium-api-4.2.1.jar lib
  3.jar libs/netty-reactive-streams-2.0.4.jar libs/jakarta.activation-1.2
  .2.jar libs/selenium-http-4.2.1.jar libs/failsafe-3.2.4.jar libs/seleni
  um-safari-driver-4.2.1.jar libs/selenium-support-4.2.1.jar libs/slf4j-a
- pi-1.7.5.jar libs/slf4j-log4j12-1.7.5.jar libs/log4j-1.2.17.jar
+ pi-1.7.5.jar libs/slf4j-log4j12-1.7.5.jar libs/log4j-1.2.17.jar libs/sp
+ ring-boot-maven-plugin-2.7.0.jar libs/spring-boot-buildpack-platform-2.
+ 7.0.jar libs/jackson-databind-2.13.3.jar libs/jackson-annotations-2.13.
+ 3.jar libs/jackson-core-2.13.3.jar libs/jackson-module-parameter-names-
+ 2.13.3.jar libs/jna-platform-5.7.0.jar libs/jna-5.7.0.jar libs/commons-
+ compress-1.21.jar libs/httpclient-4.5.13.jar libs/httpcore-4.4.13.jar l
+ ibs/commons-codec-1.11.jar libs/spring-core-5.3.20.jar libs/spring-jcl-
+ 5.3.20.jar libs/tomlj-1.0.0.jar libs/antlr4-runtime-4.7.2.jar libs/spri
+ ng-boot-loader-tools-2.7.0.jar libs/plexus-build-api-0.0.7.jar libs/ple
+ xus-utils-1.5.8.jar
 Main-Class: com.selenium.App
 Created-By: Maven Integration for Eclipse
 
