@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.springframework.boot.maven.RepackageMojo;
 
 /**
  * Hello world!
@@ -21,8 +20,8 @@ public class App
     {
         //System.out.println( "Hello World!" );
     	
-    	System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
-    	//System.setProperty("webdriver.chrome.driver","C:\\Users\\mahes\\Desktop\\STAR\\chromedriver.exe");
+    	//System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
+    	System.setProperty("webdriver.chrome.driver","C:\\Users\\mahes\\Desktop\\STAR\\chromedriver.exe");
     	ChromeOptions chromeOptions = new ChromeOptions();
     	//chromeOptions.addArguments("--headless");
     	//chromeOptions.addArguments("--no-sandbox");
@@ -31,7 +30,7 @@ public class App
     	
     	System.out.println("Welcome to the Selenium Scripts");
     	
-    	driver.get("http://3.110.130.88:8081/addressbook/");
+    	driver.get("http://3.110.186.74:8081/addressbook/");
     	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     	driver.findElement(By.className("v-button")).click();
     	
